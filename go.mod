@@ -3,7 +3,6 @@ module github.com/kodie-artner/gortsplib
 go 1.17
 
 require (
-	github.com/kodie-artner/gortsplib v0.0.0-20220917191940-92cc1b5ee985
 	github.com/asticode/go-astits v1.10.0
 	github.com/pion/rtcp v1.2.9
 	github.com/pion/rtp v1.7.13
