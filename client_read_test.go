@@ -14,12 +14,12 @@ import (
 	"github.com/stretchr/testify/require"
 	"golang.org/x/net/ipv4"
 
-	"github.com/aler9/gortsplib/pkg/auth"
-	"github.com/aler9/gortsplib/pkg/base"
-	"github.com/aler9/gortsplib/pkg/conn"
-	"github.com/aler9/gortsplib/pkg/headers"
-	"github.com/aler9/gortsplib/pkg/mpeg4audio"
-	"github.com/aler9/gortsplib/pkg/url"
+	"github.com/kodie-artner/gortsplib/pkg/auth"
+	"github.com/kodie-artner/gortsplib/pkg/base"
+	"github.com/kodie-artner/gortsplib/pkg/conn"
+	"github.com/kodie-artner/gortsplib/pkg/headers"
+	"github.com/kodie-artner/gortsplib/pkg/mpeg4audio"
+	"github.com/kodie-artner/gortsplib/pkg/url"
 )
 
 func startReading(c *Client, ur string) error {

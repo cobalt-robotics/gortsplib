@@ -7,8 +7,8 @@ import (
 
 	"github.com/pion/rtp"
 
-	"github.com/aler9/gortsplib/pkg/h264"
-	"github.com/aler9/gortsplib/pkg/rtph264"
+	"github.com/kodie-artner/gortsplib/pkg/h264"
+	"github.com/kodie-artner/gortsplib/pkg/rtph264"
 )
 
 const (

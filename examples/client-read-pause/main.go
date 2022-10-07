@@ -4,8 +4,8 @@ import (
 	"log"
 	"time"
 
-	"github.com/aler9/gortsplib"
-	"github.com/aler9/gortsplib/pkg/url"
+	"github.com/kodie-artner/gortsplib"
+	"github.com/kodie-artner/gortsplib/pkg/url"
 )
 
 // This example shows how to

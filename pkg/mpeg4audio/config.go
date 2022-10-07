@@ -3,7 +3,7 @@ package mpeg4audio
 import (
 	"fmt"
 
-	"github.com/aler9/gortsplib/pkg/bits"
+	"github.com/kodie-artner/gortsplib/pkg/bits"
 )
 
 // Config is a MPEG-4 Audio configuration.

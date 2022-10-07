@@ -7,7 +7,7 @@ import (
 
 	psdp "github.com/pion/sdp/v3"
 
-	"github.com/aler9/gortsplib/pkg/url"
+	"github.com/kodie-artner/gortsplib/pkg/url"
 )
 
 // Track is a RTSP track.

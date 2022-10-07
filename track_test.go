@@ -6,8 +6,8 @@ import (
 	psdp "github.com/pion/sdp/v3"
 	"github.com/stretchr/testify/require"
 
-	"github.com/aler9/gortsplib/pkg/mpeg4audio"
-	"github.com/aler9/gortsplib/pkg/url"
+	"github.com/kodie-artner/gortsplib/pkg/mpeg4audio"
+	"github.com/kodie-artner/gortsplib/pkg/url"
 )
 
 func TestTrackNewFromMediaDescription(t *testing.T) {

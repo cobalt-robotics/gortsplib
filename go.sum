@@ -1,5 +1,5 @@
-github.com/aler9/gortsplib v0.0.0-20220917191940-92cc1b5ee985 h1:PcXyrBU1T1zEoY+0pz1GHnMaU2Nj55sYrls/oErWvts=
-github.com/aler9/gortsplib v0.0.0-20220917191940-92cc1b5ee985/go.mod h1:BOWNZ/QBkY/eVcRqUzJbPFEsRJshwxaxBT01K260Jeo=
+github.com/kodie-artner/gortsplib v0.0.0-20220917191940-92cc1b5ee985 h1:PcXyrBU1T1zEoY+0pz1GHnMaU2Nj55sYrls/oErWvts=
+github.com/kodie-artner/gortsplib v0.0.0-20220917191940-92cc1b5ee985/go.mod h1:BOWNZ/QBkY/eVcRqUzJbPFEsRJshwxaxBT01K260Jeo=
 github.com/asticode/go-astikit v0.20.0 h1:+7N+J4E4lWx2QOkRdOf6DafWJMv6O4RRfgClwQokrH8=
 github.com/asticode/go-astikit v0.20.0/go.mod h1:h4ly7idim1tNhaVkdVBeXQZEE3L0xblP7fCWbgwipF0=
 github.com/asticode/go-astits v1.10.0 h1:ixKsRl84nWtjgHWcWKTDkUHNQ4kxbf9nKmjuSCninCU=
