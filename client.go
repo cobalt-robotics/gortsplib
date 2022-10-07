@@ -3,7 +3,6 @@ Package gortsplib is a RTSP 1.0 library for the Go programming language,
 written for rtsp-simple-server.
 
 Examples are available at https://github.com/aler9/gortsplib/tree/master/examples
-
 */
 package gortsplib
 
@@ -1567,7 +1566,7 @@ func (c *Client) doSetup(
 		}
 
 		if thRes.InterleavedIDs == nil {
-			return nil, liberrors.ErrClientTransportHeaderNoInterleavedIDs{}
+			thRes.InterleavedIDs = &[2]int{0, 1}
 		}
 
 		if (thRes.InterleavedIDs[0]%2) != 0 ||
