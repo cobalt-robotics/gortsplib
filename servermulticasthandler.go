@@ -3,7 +3,7 @@ package gortsplib
 import (
 	"net"
 
-	"github.com/kodie-artner/gortsplib/pkg/ringbuffer"
+	"github.com/cobalt-robotics/gortsplib/pkg/ringbuffer"
 )
 
 type trackTypePayload struct {

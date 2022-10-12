@@ -6,8 +6,8 @@ import (
 	"log"
 	"sync"
 
-	"github.com/kodie-artner/gortsplib"
-	"github.com/kodie-artner/gortsplib/pkg/base"
+	"github.com/cobalt-robotics/gortsplib"
+	"github.com/cobalt-robotics/gortsplib/pkg/base"
 )
 
 // This example shows how to

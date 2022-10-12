@@ -6,8 +6,8 @@ import (
 
 	"github.com/pion/rtp"
 
-	"github.com/kodie-artner/gortsplib/pkg/bits"
-	"github.com/kodie-artner/gortsplib/pkg/mpeg4audio"
+	"github.com/cobalt-robotics/gortsplib/pkg/bits"
+	"github.com/cobalt-robotics/gortsplib/pkg/mpeg4audio"
 )
 
 func randUint32() uint32 {

@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/kodie-artner/gortsplib/pkg/base"
-	"github.com/kodie-artner/gortsplib/pkg/headers"
+	"github.com/cobalt-robotics/gortsplib/pkg/base"
+	"github.com/cobalt-robotics/gortsplib/pkg/headers"
 )
 
 // Sender allows to generate credentials for a Validator.

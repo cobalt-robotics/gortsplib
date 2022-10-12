@@ -3,7 +3,7 @@ package h264
 import (
 	"fmt"
 
-	"github.com/kodie-artner/gortsplib/pkg/bits"
+	"github.com/cobalt-robotics/gortsplib/pkg/bits"
 )
 
 func readScalingList(buf []byte, pos *int, size int) ([]int32, bool, error) {

@@ -7,7 +7,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/kodie-artner/gortsplib/pkg/base"
+	"github.com/cobalt-robotics/gortsplib/pkg/base"
 )
 
 // TransportProtocol is a transport protocol.

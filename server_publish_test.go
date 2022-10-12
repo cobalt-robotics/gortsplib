@@ -11,9 +11,9 @@ import (
 	psdp "github.com/pion/sdp/v3"
 	"github.com/stretchr/testify/require"
 
-	"github.com/kodie-artner/gortsplib/pkg/base"
-	"github.com/kodie-artner/gortsplib/pkg/conn"
-	"github.com/kodie-artner/gortsplib/pkg/headers"
+	"github.com/cobalt-robotics/gortsplib/pkg/base"
+	"github.com/cobalt-robotics/gortsplib/pkg/conn"
+	"github.com/cobalt-robotics/gortsplib/pkg/headers"
 )
 
 func invalidURLAnnounceReq(t *testing.T, control string) base.Request {

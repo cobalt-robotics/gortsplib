@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/kodie-artner/gortsplib"
-	"github.com/kodie-artner/gortsplib/pkg/url"
+	"github.com/cobalt-robotics/gortsplib"
+	"github.com/cobalt-robotics/gortsplib/pkg/url"
 )
 
 // This example shows how to

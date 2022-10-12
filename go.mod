@@ -1,4 +1,4 @@
-module github.com/kodie-artner/gortsplib
+module github.com/cobalt-robotics/gortsplib
 
 go 1.17
 

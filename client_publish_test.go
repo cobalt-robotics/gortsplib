@@ -11,9 +11,9 @@ import (
 	"github.com/pion/rtp"
 	"github.com/stretchr/testify/require"
 
-	"github.com/kodie-artner/gortsplib/pkg/base"
-	"github.com/kodie-artner/gortsplib/pkg/conn"
-	"github.com/kodie-artner/gortsplib/pkg/headers"
+	"github.com/cobalt-robotics/gortsplib/pkg/base"
+	"github.com/cobalt-robotics/gortsplib/pkg/conn"
+	"github.com/cobalt-robotics/gortsplib/pkg/headers"
 )
 
 var testRTPPacket = rtp.Packet{

@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/kodie-artner/gortsplib/pkg/base"
+	"github.com/cobalt-robotics/gortsplib/pkg/base"
 )
 
 // Authorization is an Authorization header.

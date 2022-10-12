@@ -7,7 +7,7 @@ import (
 
 	psdp "github.com/pion/sdp/v3"
 
-	"github.com/kodie-artner/gortsplib/pkg/sdp"
+	"github.com/cobalt-robotics/gortsplib/pkg/sdp"
 )
 
 // Tracks is a list of tracks.

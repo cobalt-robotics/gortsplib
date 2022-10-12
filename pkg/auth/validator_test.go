@@ -5,7 +5,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/kodie-artner/gortsplib/pkg/base"
+	"github.com/cobalt-robotics/gortsplib/pkg/base"
 )
 
 func TestValidatorErrors(t *testing.T) {

@@ -6,8 +6,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/kodie-artner/gortsplib/pkg/base"
-	"github.com/kodie-artner/gortsplib/pkg/url"
+	"github.com/cobalt-robotics/gortsplib/pkg/base"
+	"github.com/cobalt-robotics/gortsplib/pkg/url"
 )
 
 func mustParseURL(s string) *url.URL {

@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/kodie-artner/gortsplib/pkg/h264"
+	"github.com/cobalt-robotics/gortsplib/pkg/h264"
 )
 
 type naluType h264.NALUType
