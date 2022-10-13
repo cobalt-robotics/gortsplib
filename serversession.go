@@ -13,14 +13,14 @@ import (
 	"github.com/pion/rtcp"
 	"github.com/pion/rtp"
 
-	"github.com/aler9/gortsplib/pkg/base"
-	"github.com/aler9/gortsplib/pkg/headers"
-	"github.com/aler9/gortsplib/pkg/liberrors"
-	"github.com/aler9/gortsplib/pkg/ringbuffer"
-	"github.com/aler9/gortsplib/pkg/rtcpreceiver"
-	"github.com/aler9/gortsplib/pkg/rtpcleaner"
-	"github.com/aler9/gortsplib/pkg/rtpreorderer"
-	"github.com/aler9/gortsplib/pkg/url"
+	"github.com/cobalt-robotics/gortsplib/pkg/base"
+	"github.com/cobalt-robotics/gortsplib/pkg/headers"
+	"github.com/cobalt-robotics/gortsplib/pkg/liberrors"
+	"github.com/cobalt-robotics/gortsplib/pkg/ringbuffer"
+	"github.com/cobalt-robotics/gortsplib/pkg/rtcpreceiver"
+	"github.com/cobalt-robotics/gortsplib/pkg/rtpcleaner"
+	"github.com/cobalt-robotics/gortsplib/pkg/rtpreorderer"
+	"github.com/cobalt-robotics/gortsplib/pkg/url"
 )
 
 func stringsReverseIndex(s, substr string) int {
@@ -632,9 +632,7 @@ func (ss *ServerSession) handleRequest(sc *ServerConn, req *base.Request) (*base
 
 		default: // TCP
 			if inTH.InterleavedIDs == nil {
-				return &base.Response{
-					StatusCode: base.StatusBadRequest,
-				}, liberrors.ErrServerTransportHeaderNoInterleavedIDs{}
+				inTH.InterleavedIDs = &[2]int{0, 1}
 			}
 
 			if (inTH.InterleavedIDs[0]%2) != 0 ||

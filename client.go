@@ -2,8 +2,7 @@
 Package gortsplib is a RTSP 1.0 library for the Go programming language,
 written for rtsp-simple-server.
 
-Examples are available at https://github.com/aler9/gortsplib/tree/master/examples
-
+Examples are available at https://github.com/cobalt-robotics/gortsplib/tree/master/examples
 */
 package gortsplib
 
@@ -21,18 +20,18 @@ import (
 	"github.com/pion/rtcp"
 	"github.com/pion/rtp"
 
-	"github.com/aler9/gortsplib/pkg/auth"
-	"github.com/aler9/gortsplib/pkg/base"
-	"github.com/aler9/gortsplib/pkg/conn"
-	"github.com/aler9/gortsplib/pkg/headers"
-	"github.com/aler9/gortsplib/pkg/liberrors"
-	"github.com/aler9/gortsplib/pkg/ringbuffer"
-	"github.com/aler9/gortsplib/pkg/rtcpreceiver"
-	"github.com/aler9/gortsplib/pkg/rtcpsender"
-	"github.com/aler9/gortsplib/pkg/rtpcleaner"
-	"github.com/aler9/gortsplib/pkg/rtpreorderer"
-	"github.com/aler9/gortsplib/pkg/sdp"
-	"github.com/aler9/gortsplib/pkg/url"
+	"github.com/cobalt-robotics/gortsplib/pkg/auth"
+	"github.com/cobalt-robotics/gortsplib/pkg/base"
+	"github.com/cobalt-robotics/gortsplib/pkg/conn"
+	"github.com/cobalt-robotics/gortsplib/pkg/headers"
+	"github.com/cobalt-robotics/gortsplib/pkg/liberrors"
+	"github.com/cobalt-robotics/gortsplib/pkg/ringbuffer"
+	"github.com/cobalt-robotics/gortsplib/pkg/rtcpreceiver"
+	"github.com/cobalt-robotics/gortsplib/pkg/rtcpsender"
+	"github.com/cobalt-robotics/gortsplib/pkg/rtpcleaner"
+	"github.com/cobalt-robotics/gortsplib/pkg/rtpreorderer"
+	"github.com/cobalt-robotics/gortsplib/pkg/sdp"
+	"github.com/cobalt-robotics/gortsplib/pkg/url"
 )
 
 func isAnyPort(p int) bool {
@@ -1567,7 +1566,7 @@ func (c *Client) doSetup(
 		}
 
 		if thRes.InterleavedIDs == nil {
-			return nil, liberrors.ErrClientTransportHeaderNoInterleavedIDs{}
+			thRes.InterleavedIDs = &[2]int{0, 1}
 		}
 
 		if (thRes.InterleavedIDs[0]%2) != 0 ||

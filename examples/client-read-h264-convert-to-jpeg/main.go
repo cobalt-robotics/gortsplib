@@ -8,8 +8,8 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/aler9/gortsplib"
-	"github.com/aler9/gortsplib/pkg/url"
+	"github.com/cobalt-robotics/gortsplib"
+	"github.com/cobalt-robotics/gortsplib/pkg/url"
 )
 
 // This example shows how to

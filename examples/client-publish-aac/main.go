@@ -4,8 +4,8 @@ import (
 	"log"
 	"net"
 
-	"github.com/aler9/gortsplib"
-	"github.com/aler9/gortsplib/pkg/mpeg4audio"
+	"github.com/cobalt-robotics/gortsplib"
+	"github.com/cobalt-robotics/gortsplib/pkg/mpeg4audio"
 	"github.com/pion/rtp"
 )
 

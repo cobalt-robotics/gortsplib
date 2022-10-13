@@ -14,12 +14,12 @@ import (
 	"github.com/stretchr/testify/require"
 	"golang.org/x/net/ipv4"
 
-	"github.com/aler9/gortsplib/pkg/auth"
-	"github.com/aler9/gortsplib/pkg/base"
-	"github.com/aler9/gortsplib/pkg/conn"
-	"github.com/aler9/gortsplib/pkg/headers"
-	"github.com/aler9/gortsplib/pkg/mpeg4audio"
-	"github.com/aler9/gortsplib/pkg/url"
+	"github.com/cobalt-robotics/gortsplib/pkg/auth"
+	"github.com/cobalt-robotics/gortsplib/pkg/base"
+	"github.com/cobalt-robotics/gortsplib/pkg/conn"
+	"github.com/cobalt-robotics/gortsplib/pkg/headers"
+	"github.com/cobalt-robotics/gortsplib/pkg/mpeg4audio"
+	"github.com/cobalt-robotics/gortsplib/pkg/url"
 )
 
 func startReading(c *Client, ur string) error {

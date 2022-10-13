@@ -5,7 +5,7 @@ import (
 	"net"
 	"time"
 
-	"github.com/aler9/gortsplib"
+	"github.com/cobalt-robotics/gortsplib"
 	"github.com/pion/rtp"
 )
 

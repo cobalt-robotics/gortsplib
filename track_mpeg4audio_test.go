@@ -6,7 +6,7 @@ import (
 	psdp "github.com/pion/sdp/v3"
 	"github.com/stretchr/testify/require"
 
-	"github.com/aler9/gortsplib/pkg/mpeg4audio"
+	"github.com/cobalt-robotics/gortsplib/pkg/mpeg4audio"
 )
 
 func TestTrackMPEG4AudioAttributes(t *testing.T) {

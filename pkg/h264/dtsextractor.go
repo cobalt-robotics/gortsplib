@@ -6,7 +6,7 @@ import (
 	"math"
 	"time"
 
-	"github.com/aler9/gortsplib/pkg/bits"
+	"github.com/cobalt-robotics/gortsplib/pkg/bits"
 )
 
 func getPOC(buf []byte, sps *SPS) (uint32, error) {
